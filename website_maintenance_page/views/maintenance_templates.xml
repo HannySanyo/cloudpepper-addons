@@ -34,7 +34,7 @@
                     </head>
                     <body>
                         <div class="page">
-                            <img t-att-src="image_data_uri(website.maintenance_img)"/>
+                            <img t-att-src="image_data_uri(website.maintenance_img)" style="display: block; margin: auto;"/>
                             <div class="container"
                                  style=" position: sticky;z-index: 9;top: ;bottom: 400px;width: 100%;text-align: center;display: flex;justify-content: center;">
                                 <div class="container">
